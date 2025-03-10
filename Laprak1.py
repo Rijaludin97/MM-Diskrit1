@@ -26,13 +26,3 @@ print("----------------------")
 for P in [True, False]:
     Negasi = not P
     print(f"{P}\t{Negasi}")
-
-print("\nTABEL KEBENARAN NEGASI (Kombinasi)")
-print("-------------------------")
-print("P\t|Q\t|NOT P OR Q")
-print("-------------------------")
-
-for P in [True, False]:
-    for Q in [True, False]:
-        Negasi = not P or Q
-        print(f"{P}\t{Q}\t{Negasi}")
